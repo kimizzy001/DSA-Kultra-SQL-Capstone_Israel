@@ -65,6 +65,11 @@ The data was analyzed using **MySQL**, and includes over a dozen business-driven
   3. Copy and run each query to explore business questions and generate insights.
   4. Modify or extend the queries to fit your specific data use cases.
 
+---
+
+### Final Notes
+
+This SQL project represents a real-world inventory and sales case for Kultra Mega Stores. It showcases the ability to use **SQL for solving business problems**, uncovering trends, and making data-driven recommendations. It's a strong component of the DSA capstone portfolio.
 
 ---
 
