@@ -1,7 +1,7 @@
 # DSA-capstone-kultra-sql-analysis
 SQL-based capstone project for DSA, focused on sales and customer insights using Kultra Mega Stores data.
 
-# Kultra Mega Stores Inventory SQL Analysis
+## Kultra Mega Stores Inventory SQL Analysis
 
 This repository contains SQL-based business analysis for **Kultra Mega Stores**, focused on understanding sales performance, customer value, shipping efficiency, and profitability across multiple years (2009–2012).
 
@@ -41,12 +41,20 @@ The data was analyzed using **MySQL**, and includes over a dozen business-driven
   - Several customers showed negative profit, indicating item returns or refund cases.
 
 ---
+## Recommendations
 
+- **Target Underperforming Regions:** Focus sales strategies on the bottom 3 regions — Nunavut, Northwest Territories, and Yukon — through localized promotions and regional incentives.
+- **Customer Retention:** Engage bottom 10 customers by offering loyalty discounts or personalized packages to increase repeat orders.
+- **Optimize Shipping Costs:** Since Delivery Truck is the most used and cost-effective shipping method, continue prioritizing it for low-priority orders. Limit Express Air to only high-priority deliveries.
+- **Pay Attention to Returns:** Customers with negative profit may indicate returned or refunded products. Investigate causes to reduce future losses.
+- **Product Strategy:** Technology products are the top-performing category — consider expanding this category or bundling it with lower-performing products.
+---
 ## Tools Used
 
-  - MySQL Workbench
-  - SQL (MySQL dialect)
-  - Optional: Excel or Power BI for further visualization
+  - **MySQL** – for running and analyzing SQL queries
+  - **VS Code / MySQL Workbench** – SQL development environment
+  - **Excel** – for validating or importing raw datasets
+  - **GitHub** – for version control and sharing the project
 
 ---
 
