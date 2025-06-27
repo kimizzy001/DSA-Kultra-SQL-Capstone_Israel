@@ -1,5 +1,6 @@
-# kultra-sql-analysis
-SQL business analysis of Kultra Mega Stores sales dataset (2009–2012)
+# DSA-capstone-kultra-sql-analysis
+SQL-based capstone project for DSA, focused on sales and customer insights using Kultra Mega Stores data.
+
 # Kultra Mega Stores Inventory SQL Analysis
 
 This repository contains SQL-based business analysis for **Kultra Mega Stores**, focused on understanding sales performance, customer value, shipping efficiency, and profitability across multiple years (2009–2012).
