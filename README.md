@@ -51,9 +51,11 @@ The data was analyzed using **MySQL**, and includes over a dozen business-driven
 
 ## How to Use
 
- 1. Import the dataset (`kms_sales.csv`) into your SQL environment.
- 2. Open the `kultra-inventory-sql-analysis.sql` file.
- 3. Run queries to explore and extend the analysis.
+  1. Open the [`kms_sales.sql`](https://github.com/kimizzy001/kultra-sql-analysis/blob/main/kms_sales.sql) file in your SQL editor (e.g., MySQL Workbench, DBeaver, or VS Code).
+  2. Connect to your database and ensure the `kms_sales` table has been imported (from your local CSV or another source).
+  3. Copy and run each query to explore business questions and generate insights.
+  4. Modify or extend the queries to fit your specific data use cases.
+
 
 ---
 
