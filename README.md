@@ -10,7 +10,8 @@ The data was analyzed using **MySQL**, and includes over a dozen business-driven
 
 ## Files
 
-- `kms_sales.csv`: Contains all SQL queries with solutions and commentary.
+- [kms_sales.sql](https://github.com/kimizzy001/kultra-sql-analysis/blob/main/kms_sales.sql): Contains all SQL queries used for analysis, including business questions, insights, and commentary.
+
 
 ---
 
