@@ -86,9 +86,11 @@ limit 1;
  -- Emily Phan was the profitable one,
  
  -- 10. Which customer returned items, and what segment do they belong to?
- select Customer_Name,Customer_Segment,Profit
- from kms_sales
- where Profit <0 ;
+ select distinct o.Order_ID,k.Customer_Name,k.Customer_Segment,o.status
+ from kms_sales as k
+ join order_status as o
+ where k.Order_ID != o.Order_ID;
+ 
  -- Negative profit indicates returned items; segment info provided.
  
  -- 11. If the delivery truck is the most economical but the slowest shipping method and 
@@ -100,3 +102,4 @@ select order_priority, ship_mode, count(*) as Num_orders, avg(shipping_cost) as 
  group by order_priority, ship_mode
  order by order_priority,Avg_shipping_cost desc;
  -- Yes. Delivery Truck handled most orders (cost-effective). Express Air used for high-priority orders.
+ 
