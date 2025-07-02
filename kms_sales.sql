@@ -91,8 +91,6 @@ limit 1;
  join order_status as o
  where k.Order_ID != o.Order_ID;
  
- -- Negative profit indicates returned items; segment info provided.
- 
  -- 11. If the delivery truck is the most economical but the slowest shipping method and 
 -- Express Air is the fastest but the most expensive one, do you think the company
 -- appropriately spent shipping costs based on the Order Priority? Explain your answer
